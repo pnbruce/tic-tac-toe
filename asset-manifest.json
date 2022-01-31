@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe/static/css/main.22941023.css",
-    "main.js": "/tic-tac-toe/static/js/main.13ebb27a.js",
+    "main.css": "/tic-tac-toe/static/css/main.99e320a7.css",
+    "main.js": "/tic-tac-toe/static/js/main.b2cc8f68.js",
+    "static/media/CascadiaCode_VTT.ttf": "/tic-tac-toe/static/media/CascadiaCode_VTT.a16a4e54d2d7a307683c.ttf",
     "index.html": "/tic-tac-toe/index.html",
-    "main.22941023.css.map": "/tic-tac-toe/static/css/main.22941023.css.map",
-    "main.13ebb27a.js.map": "/tic-tac-toe/static/js/main.13ebb27a.js.map"
+    "main.99e320a7.css.map": "/tic-tac-toe/static/css/main.99e320a7.css.map",
+    "main.b2cc8f68.js.map": "/tic-tac-toe/static/js/main.b2cc8f68.js.map"
   },
   "entrypoints": [
-    "static/css/main.22941023.css",
-    "static/js/main.13ebb27a.js"
+    "static/css/main.99e320a7.css",
+    "static/js/main.b2cc8f68.js"
   ]
 }
