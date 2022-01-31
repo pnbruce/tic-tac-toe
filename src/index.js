@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './CascadiaCode_VTT.ttf';
 
 function Square(props){
     return (
       <button className="square" onClick={props.onClick}>
-        {props.value}
+        {
+          <div className="font-face-cascadia-code" >
+                  {props.value}
+          </div>
+        }
       </button>
     );
   }
@@ -90,7 +95,11 @@ function Square(props){
           'Go to game start';
           return (
             <li key={move}>
-              <button onClick={() => this.jumpTo(move)}>{desc}</button>
+              <button onClick={() => this.jumpTo(move)}>{
+                <div className="font-face-cascadia-code" >
+                  {desc}
+                </div>}
+              </button>
             </li>
           )
       })
@@ -145,4 +154,8 @@ function Square(props){
   }
   return null;
 }
+
+  function fontBuilder(text) {
+    
+  }
   

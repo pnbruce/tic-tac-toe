@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'CascadiaCode';
+  font-family: normal;
+  font-weight: 400;
+  src: url('./CascadiaCode_VTT.ttf') format('truetype');
+}
+
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
+    font-family: 'CascadiaCode';
+    font: 14px "CascadiaCode", normal;
     margin: 20px;
   }
   
@@ -47,5 +55,9 @@ body {
   
   .game-info {
     margin-left: 20px;
+  }
+
+  .font-face-cascadia-code {
+    font-family: "CascadiaCode";
   }
   
